@@ -1,4 +1,8 @@
 name: "Chromatic"
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   test:
